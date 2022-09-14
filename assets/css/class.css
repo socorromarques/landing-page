@@ -1,0 +1,28 @@
+.main-bg{
+    background-color: #0a1128;
+    background-image: url('../main-bg.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.white-bg{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+.section{
+    min-height: 100vh;
+}
+
+body .full-width{
+    width: 100%;
+    flex: 1 1 100%
+}

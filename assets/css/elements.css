@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+   font-family: 'Open sans', sans-serif;
+*/
+
+body{
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.6rem;
+    background-image: url('../main-bg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase; 
+}
+
+h2{
+    font-size: 6rem; 
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-break: 1.2;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 3rem;
+}
+
+responsive-table{
+    overflow-x: auto;
+    overflow: hidden;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 360px;
+}
+
+table caption{
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+table td, table th{
+    white-space: nowrap;
+    padding: 0.5rem;
+    text-align: left;
+    border: 0.1rem solid var(--yellow-color);
+}
+
+tfoot td, table th{
+    background: var(--yellow-color);
+}
